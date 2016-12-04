@@ -1,0 +1,30 @@
+{
+  "name": "lambda-test",
+  "version": "1.0.0",
+  "description": "test lambda function",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdanishali/lambda-test.git"
+  },
+  "keywords": [],
+  "author": "Syed Danish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdanishali/lambda-test/issues"
+  },
+  "homepage": "https://github.com/sdanishali/lambda-test#readme",
+  "devDependencies": {
+    "aws-sdk": "2.7.10"
+  },
+  "dependencies": {
+    "mailparser": "0.6.1",
+    "aws-sdk-mock": "1.6.1"
+  }
+}
